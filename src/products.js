@@ -18,7 +18,7 @@ import img17 from './assets/chair17.png'
 import img18 from './assets/chair18.png'
 import img19 from './assets/chair19.png'
 const products = [
-    { id: 1, category: "Chair", color: "wood", sit: 1, name: "Wooden Flowe Chair", price: 5400.50, img: img1, slug: 'wooden-flower-chair' },
+    { id: 1, category: "Chair", color: "wood", sit: 1, name: "Wooden Flowe Chair", price: 5400.00, img: img1, slug: 'wooden-flower-chair' },
     { id: 2, category: "Computer Chair", color: "white", sit: 1, name: "White Cousin Computer Chair", price: 43500.00, img: img2, slug: 'white-cousin-computer-chair' },
     { id: 3, category: "Office Chair", color: "Ash", sit: 1, name: "Ash Cousin Office Chair", price: 35000.00, img: img3, slug: 'ash-cousin-office-chair' },
     { id: 4, category: "Office Chair", color: "Gray", sit: 1, name: "Gray Office Chair", price: 23900.00, img: img4, slug: 'gray-office-chair' },

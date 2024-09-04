@@ -12,7 +12,7 @@ function Layout() {
         <Header />
         <Outlet/>
         <div>
-        <h1>Product List</h1>
+        <h1 className='pb-4 font-bold ml-4 text-[2rem]'>Product List</h1>
         <div className='grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 mx-6 gap-5'>
           {products.map((item,index)=>(
             <ProductCart  key={index} item={item} />

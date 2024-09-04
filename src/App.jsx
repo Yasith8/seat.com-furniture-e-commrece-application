@@ -4,6 +4,7 @@ import CartTab from './components/CartTab'
 import Header from './components/Header'
 import Layout from './components/Layout'
 import Details from './pages/Details'
+import Favorites from './pages/Favorites'
 import Home from './pages/Home'
 import { BrowserRouter,Route,Routes } from 'react-router-dom'
 
@@ -15,6 +16,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route index element={<Home/>}/>
+        <Route path='/favorite' element={<Favorites/>}/>
         <Route path='/:slug' element={<Details/>}/>
         
       </Routes>

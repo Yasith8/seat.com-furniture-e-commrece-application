@@ -9,6 +9,7 @@ function Header() {
     <div className='flex flex-row justify-between p-5'>
       <div className='text-xl font-bold'>Seat.</div>
       <Link to='/' >Home</Link>
+      <Link to='/favorites' >Favorites</Link>
       <div>
       <div className='bg-white p-3 rounded-full'>
         <GiShoppingCart className='scale-150'/>
